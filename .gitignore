@@ -1,0 +1,37 @@
+# Directories for build artifacts and temporary files
+/build/
+/out/
+/tmp/
+
+# Compiled object files, kernel modules and similar artifacts
+*.o
+*.ko
+*.mod.c
+*.a
+*.so
+
+# Executable files and binary outputs
+*.exe
+*.out
+*.bin
+
+# Backup and swap files
+*~
+*.swp
+
+# Log files
+*.log
+
+# Configuration files generated during build (если применимо)
+*.config
+
+# Core dumps
+core
+
+# System-specific files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# Python cache files (если используются скрипты на Python)
+__pycache__/
+*.py[cod]
